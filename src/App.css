@@ -1,38 +1,81 @@
-.App {
+.navegador {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  padding: 10px 100px;
+}
+
+.main {
+  display: flex;
+  padding-right: 100px;
+}
+
+.main>a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: aliceblue;
+  padding-right: 40px;
+  font-size: 15px;
+}
+
+.main>p {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  color: aliceblue;
+}
+
+.premium {
+  display: flex;
+  background-color: #A1248B;
+  color: aliceblue;
+}
+
+.spot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+
+.detail {
+  padding: 0px;
+}
+
+h1 {
+  display: flex;
+  padding-top: 0px;
+  padding-right: 250px; 
+}
+
+.oferta>p {
+  display: flex;
+  padding-top: 20px;
+  padding-right: 250px;
+}
+
+.meses {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.meses>a {
+  font-size: 12px;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: #000000;
+  width: 150px;
+  border-radius: 30px;
+  
+  padding: 50px 15px;
+  border-color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.condicion {
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
