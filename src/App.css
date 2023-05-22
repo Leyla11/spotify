@@ -266,16 +266,21 @@ h3 {
   .navegador {
       flex-wrap: wrap;
       align-content: center;
+      justify-content: center;
   }
 
   .logo {
+    display: flex;
+    justify-content: center;
     width: 99%;
+    padding: 0;
   }
 
   .main {
     flex-wrap: wrap;
     justify-content: center;
-  
+    align-items: center;
+    padding: 0;
   }
 
   .premium {
@@ -287,6 +292,10 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .imp {
+    padding: 0;
   }
 
   .cambiate {
@@ -302,9 +311,10 @@ h3 {
   .planes {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    padding: 10px;
-    font-size: small;
+  }
+
+  .planes>.porque {
+    text-align: center;
   }
 
   .texto {
@@ -315,10 +325,8 @@ h3 {
   }
 
   .texto>img{
-    
     padding-left: 0;
-  
-    width: 50%;
+    width: 90%;
   }
 
   .card {
