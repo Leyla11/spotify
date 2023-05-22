@@ -32,50 +32,309 @@
 
 .premium {
   display: flex;
+  justify-content: space-around;
+  padding: 30px 20px;
   background-color: #A1248B;
   color: aliceblue;
 }
 
-.spot {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px 100px;
-}
 
 .detail {
-  padding: 0px;
+  padding: 30px 90px;
 }
 
 h1 {
   display: flex;
-  padding-top: 0px;
-  padding-right: 250px; 
+  padding-right: 20px;
+  font-size: 40px; 
 }
 
 .oferta>p {
-  display: flex;
   padding-top: 20px;
-  padding-right: 250px;
+  padding-right: 50px;
+  font-size: 20px;
 }
 
 .meses {
-  text-align: center;
+  padding: 30px 0px;
 }
 
 .meses>a {
+   background-color: #000000;
+   text-align: center;
+   padding: 20px 30px;
+   border-radius: 60px;
+   color: aliceblue;
+   text-decoration: none;
+   margin-right: 30px;
+   margin-top: 30px;
+   font-size: 13px;
+}
+
+.condicion>p {
+  padding-top: 15px;
   font-size: 12px;
+}
+
+.imp {
+  padding: 30px 110px;
+}
+
+.cambiate {
+  padding: 100px;
+}
+
+.porque {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0px ;
+}
+
+.descarga {
+  text-align: center;
+  font-size: 20px; 
+}
+
+.descarga>p {
+  margin-top: 15px;
+}
+
+.escucha {
+  text-align: center;
+  font-size: 20px;
+}
+
+.escucha>p {
+  margin-top: 15px;
+}
+
+.reproduce{
+  text-align: center;
+  font-size: 20px;
+}
+
+.reproduce>p {
+  margin-top: 15px;
+}
+
+.saltos {
+  text-align: center;
+  font-size: 20px;
+}
+
+.saltos>p{
+  margin-top: 15px;
+}
+
+.planes {
+  background-color: #EFEFEF;
+  padding: 100px;
+}
+
+.texto>p {
+  text-align: center;
+  font-size: 17px;
+}
+
+.texto>img {
+  padding-left: 480px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 40px;
+  background-color: #EFEFEF;
+}
+
+.onecard {
+  box-shadow: 2px 3px 4px 5px gray;
+  border-radius: 5px;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bodycard {
+  height: 80%;
+}
+
+.onecard>a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin: 30px 0;
   text-decoration: none;
-  color: aliceblue;
   background-color: #000000;
-  width: 150px;
-  border-radius: 30px;
+  border-radius: 10px;
+  color: aliceblue;
   
-  padding: 50px 15px;
-  border-color: aliceblue;
 }
 
-.condicion {
+.gratis {
+  background-color: #1D75DE;
+  color: aliceblue;
+  border-style: solid;
+  border-radius: 5px;
+  width: 230px;
+  height: 20px;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.disponible {
+  color: #1D75DE;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #1D75DE;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+h3 {
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+.bodycard>p {
+  margin-top: 5px;
+}
+
+.terminos {
+  font-size: 10px;
+}
+
+.footer {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0px;
+  margin-left: 0;
+}
+
+.logofooter {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  width: 7%;
+  height: 7%;
 
 }
 
+.compañia>p{
+  font-size: 13px;
+  margin: 20px;
+  color: aliceblue;
+}
+
+.comunidades>p {
+  font-size: 13px;
+  margin: 20px;
+  color: aliceblue;
+}
+
+.enlaces>p {
+  font-size: 13px;
+  margin: 20px;
+  color: aliceblue;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  width: 3%;
+  height: 3%;
+  padding-right: 40px;
+}
+
+
+@media (max-width: 700px) {
+  .navegador {
+      flex-wrap: wrap;
+      align-content: center;
+  }
+
+  .logo {
+    width: 99%;
+  }
+
+  .main {
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+
+  .premium {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .meses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cambiate {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sections {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .planes {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+    font-size: small;
+  }
+
+  .texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto>img{
+    
+    padding-left: 0;
+  
+    width: 50%;
+  }
+
+  .card {
+    flex-wrap: wrap;
+  }
+  .onecard {
+    width: 80%;
+    margin: 15px 0;  
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  
+}
